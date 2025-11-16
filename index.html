@@ -169,7 +169,7 @@
     <!-- 影视下载区 -->
     <section id="download" class="py-16 relative z-10">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-16 text-center section-title">资源下载</h2>
+            <h2 class="text-3xl font-bold mb-16 text-center section-title">资源下载区</h2>
 
             <!-- 影视模块 -->
             <div class="mb-16 module-card bg-card-bg glass-effect rounded-2xl p-6 md:p-8">
@@ -268,6 +268,40 @@
                     </a>
                 </div>
             </div>
+  <!-- 影视模块 -->
+            <div class="mb-16 module-card bg-card-bg glass-effect rounded-2xl p-6 md:p-8">
+                <div class="flex items-center justify-center mb-8">
+                    <div class="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mr-4">
+                        <i class="fa fa-film text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold">苹果区</h3>
+                </div>
+                
+                <!-- 使用教程 -->
+                <div class="bg-dark/50 rounded-xl p-5 mb-8 border border-white/5">
+                    <h4 class="text-lg font-semibold mb-4 flex items-center">
+                        <i class="fa fa-info-circle text-primary mr-2"></i>软件介绍
+                    </h4>
+                    <p class="text-gray-300 mb-4">苹果版软件，自带影视，音乐，漫画，小说，听书等。</p>
+                    <div class="flex flex-col md:flex-row items-center gap-3 url-input bg-dark/70 rounded-lg p-3 border border-white/10">
+                        <input type="text" id="config-url-1" value="「 安装巨魔或购买签证 」" class="bg-transparent border-none outline-none text-white flex-1" readonly>
+                      
+                        </button>
+                    </div>
+                    <div id="copy-notification-1" class="hidden mt-2 text-green-400 text-sm"><i class="fa fa-check-circle mr-1"></i> </div>
+                </div>
+                
+                <!-- 下载按钮 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <a href="https://d.kstore.dev/download/12212/iBox巨魔版.ipa" target="_blank" class="download-btn hover-lift block text-white font-medium py-4 px-6 rounded-xl text-center bg-gradient-to-r from-primary to-primary/80 shadow-lg shadow-primary/10">
+                        <i class="fa fa-android mr-2"></i>巨魔版下载
+                    </a>
+                    <a href="https://d.kstore.dev/download/12212/iBox自签版.ipa" target="_blank" class="download-btn hover-lift block text-white font-medium py-4 px-6 rounded-xl text-center bg-gradient-to-r from-primary to-primary/80 shadow-lg shadow-primary/10">
+                        <i class="fa fa-android mr-2"></i>自签版下载
+                    </a>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -401,7 +435,6 @@
     </script>
 </body>
 </html>
-
 
 
 
